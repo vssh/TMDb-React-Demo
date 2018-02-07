@@ -1,0 +1,31 @@
+.list-item-tile {
+  display: inline-block;
+  width: 120px;
+  height: 220px;
+  margin: 25px;
+}
+
+.list-item-tile-image {
+  display: block;
+  top: 10px;
+  margin: 10px auto;
+}
+
+.list-item-tile-text {
+  height: 3.6em;
+  overflow: hidden;
+}
+
+.list-item-tile-name {
+  width: 100%;
+  max-height: 2.5em;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list-item-tile-year {
+  color: grey;
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+#tv-toggle-checkbox {
+  display: none;
+}
+
+label[for='tv-toggle-checkbox'] {
+  font-size: 1.4em;
+  color: #00d573;
+  cursor: pointer;
+}
+
+label[for='tv-toggle-checkbox'] span {
+  margin-left: 10px;
+  color: #00d573;
+}

@@ -1,0 +1,110 @@
+body {
+  background: black;
+}
+
+#app {
+  height: 100%;
+}
+
+.app-content {
+  position: relative;
+  color: white;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.app-main {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.app-tv-toggle {
+  position: absolute;
+  top: 120px;
+  right: 10px;
+  width: 120px;
+}
+
+.app-tab-row {
+  margin: auto 20px;
+}
+
+.app-tab {
+  margin-left: 10px;
+  border: 3px solid #00d573;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-size: 2em;
+  background: grey;
+  color: black;
+  cursor: pointer;
+}
+
+.app-tab-selected {
+  border-bottom: 3px solid black;
+  background: black;
+  color: grey;
+}
+
+.app-tab-content {
+  padding: 20px;
+  margin-top: -3px;
+  border-top: 3px solid #00d573;
+}
+
+button:focus, input:focus {
+    outline:0;
+}
+	
+button::-moz-focus-inner {
+  border: 0;
+}
+
+.displayNone {
+    display: none;
+}
+
+.footer {
+    height: 70px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.github-container {
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+}
+
+.github-container i {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+}
+
+.github-container a {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.tmdb-container {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+
+.tmdb-container img {
+    width: 50px;
+    height: 50px;
+}
+
+.tmdb-container span {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+}

@@ -1,0 +1,70 @@
+
+.item-background {
+    background-color: darkgrey;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: screen;
+    color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.item-wrapper {
+  max-width: 500px;
+  display: block;
+  margin: 50px auto;
+}
+
+.item-poster {
+  display: inline-block;
+  margin: 50px;
+}
+
+.item-name {
+  margin: 20px auto;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.item-overview {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.item-close {
+  background: transparent;
+  color: black;
+  border: transparent;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2.5em;
+}
+
+.item-icons {
+  display: inline-block;
+  float: right;
+  margin: 50px;
+  direction: rtl;
+}
+
+.item-fav {
+  background: transparent;
+  color: red;
+  border: transparent;
+  font-size: 2em;
+  margin: 0px auto;
+}
+
+.item-rating {
+  bottom: 0px;
+  right: 0px;
+  color: darkgoldenrod;
+  font-size: 1em;
+  margin: 30px auto;
+  direction: ltr;
+}
