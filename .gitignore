@@ -1,4 +1,3 @@
 /node_modules
 /.directory
 *.lock
-src/client/public
